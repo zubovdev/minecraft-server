@@ -1,0 +1,13 @@
+# use {player} for the sleeping players name
+# use {sleeping} for the count of the sleeping players
+# use {online} for the online playercount
+# use {percentage} for the percentage of sleeping players
+# use {more} to get the count of how many more players have to sleep to skip the night
+ghost: '&6Du kannst jetzt nicht schlafen, es sind Geister in der NÃ¤he!'
+sleep: '&c{player}&6 schlÃ¤ft jetzt. &c{sleeping}/{required}&6 ({percentage}%) Noch
+  &c{more}&6 benÃ¶tigt!'
+leave: '&c{player}&6 schlÃ¤ft nichtmehr. &c{sleeping}/{required}&6 ({percentage}%)
+  Noch &c{more}&6 benÃ¶tigt!'
+wake: '&6Guten Morgen!'
+notify: '&c{sleeping}&6 Spieler sind schlafen gegangen. Ãœberspringe die Nacht!'
+notifyOnSingle: '&c{player}&6 schlÃ¤ft nun. Ãœberspringe die Nacht!'
